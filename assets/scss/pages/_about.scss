@@ -1,0 +1,101 @@
+.about{
+.banner h1{
+    font-size: 48px;
+    border-left: #AA0601 8px solid;
+    margin-top: 96px;
+    margin-bottom: 33px;
+    padding-left: 16px;
+}
+
+.banner p{
+    font-size: 24px;
+    margin-right: 16px;
+    padding-bottom: 40px;
+}
+
+.banner select{
+    width: 304px;
+    height: 38px;
+    color: #495057;
+    opacity: 75%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+}
+
+@media (max-width: 576px) {
+	.banner h1{
+        font-size: 24px;
+        margin-top: 40px;
+    }
+    .banner p{
+        font-size: 16px;
+        padding-bottom: 31px;
+    }
+    .banner select{
+        width: 276px;
+    }
+}
+
+.borderline{
+    border: #00000020 1px solid;
+}
+
+.place-card{
+    width: 33.3%;
+}
+
+.place-card img{
+    width: 100%;
+}
+
+.place-card h2{
+    font-size: 24px;
+    color: #212529;
+    border-bottom: #00000020 1px solid;
+    padding-left: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.place-card p{
+    color: #212529;
+    font-size: 20px;
+}
+
+.place-card a{
+    background-color: #000000;
+    color: #FFFFFF;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.material-symbols-outlined{
+    padding-right: 11px;
+}
+
+.place ul{
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.place-card{
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-bottom: 28px;
+}
+
+.box{
+    padding: 16px;
+    min-height: 168px;
+}
+
+@media (max-width: 576px) {
+  .place-card{
+    width: 100%;
+  }
+}
+}

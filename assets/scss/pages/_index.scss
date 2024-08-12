@@ -1,0 +1,402 @@
+.index{
+.d-flex li a{
+	text-decoration: none;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: #FFFFFF;
+}
+
+.header{
+   background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header.png?raw=true);
+   height: 787px;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.headertilte{
+   align-items: center;
+   justify-content: flex-end;
+}
+
+.headertilte a{
+	background-color: #AA0601;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-right: 12px;
+	padding-left: 12px;
+}
+
+.headertilte{
+	text-align: right;
+	padding-top: 296px;
+}
+
+.headertilte h3{
+	color: #650300;
+	font-size: 36px;
+}
+
+.headertilte h1{
+	color: #650300;
+	font-size: 64px;
+	margin-bottom: 14px;
+}
+
+.nav-item{
+	padding-right: 64px;
+}
+
+@media (max-width: 576px) {
+	.headcontainer{
+		max-width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 576px) {
+	.headertilte {
+		width: 100%
+	  }
+	.headertilte h3{
+		font-size: 16px;
+	}
+	.headertilte h1{
+		font-size: 24px;
+		margin-bottom: 14px;
+	}
+	.container {
+		max-width: 372px;
+	  }
+	.header{
+		background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header-sm.png?raw=true);	
+	  }
+  }
+
+.img{
+	max-width: 100%;
+	height: auto;
+}
+
+.serverlist .container{
+	margin: 0 auto;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.serverlist h2{
+	color: #650300;
+	font-size: 48px;
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 36.5px;
+}
+
+.serverlist h3{
+	color: #650300;
+	font-size: 24px;
+	text-align: center;
+}
+
+.serverlist-item p{
+	padding-bottom: 104px;
+	padding-top: 8px;
+}
+
+.serverblock{
+	flex-wrap: wrap;
+	margin-right: -12px;
+	margin-left: -12px;
+}
+
+.serverlist-item{
+	width: 25%;
+	padding-right: 12px;
+	padding-left: 12px;
+}
+
+@media (max-width: 576px) {
+	.serverlist-item {
+	  width: 100%;
+	}
+	.serverlist h2{
+		font-size: 24px;
+	}
+	.container {
+	  max-width: 372px;
+	}
+  }
+
+.middle-side{
+	padding-right: 12px;
+	padding-left: 12px;
+}
+
+.middle-side-list{
+	padding-right: 12px;
+	padding-left: 12px;
+	width: 33.3%;
+ }
+
+.middle-side-item{
+	margin-left: -12px;
+	margin-right: -12px;
+}
+
+.middle-side h2{
+	color: #650300;
+    font-size: 48px;
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 48px;
+}
+
+.middle-side-list h3{
+	text-align: center;
+	color: #AA0601;
+	font-size: 48px;
+	padding-bottom: 80px;
+}
+
+.middle-side-list-img{
+	max-width: 100%;
+}
+
+@media (max-width: 576px) {
+	.middle-side-list{
+	  width: 100%;
+	}
+	.middle-side-list-img{
+		max-width: 360px;
+	}
+	.middle-side-item{
+		flex-wrap: wrap;
+	}
+	.container {
+	  max-width: 372px;
+	}
+  }
+
+.no5-block-bg{
+	background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/index-bg.png?raw=true);	
+    height: 608px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.no5-block-container{
+	max-width: 1296px;
+	margin: 0 auto;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.no5-block-card-item{
+	align-items: center;
+	width: 50%;
+}
+
+.no5-block-card-item-img{
+	width: 100%;
+	display: block;
+}
+
+.no5-block-bg h2{
+	font-size: 48px;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 48px;
+}
+
+.no5-block h3{
+	font-size: 48px;
+	color: #AA0601;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	background-color: #FFFFFF;
+	border-right: gray 1px solid;
+}
+
+@media (max-width: 576px) {
+	.no5-block-container{
+		max-width: 372px;
+	  }
+	.no5-block-card{
+		flex-wrap: wrap;
+	}
+	.no5-block-card-item {
+		width: 100%;
+	}
+	.no5-block-card-item-img{
+		width: 100%;
+	}
+	.no5-block-card-item h3{
+		font-size: 48px;
+		margin-bottom: 24px;
+	}
+	.no5-block-bg h2{
+		padding-top: 40px;
+		padding-bottom: 24px;
+	}
+  }
+
+.guest-recomme-container{
+	max-width: 1024px;
+    margin: 0 auto;
+	padding-right: 12px;
+	padding-left:  12px;
+}
+
+.guest-recomme h3{
+	font-size: 48px;
+	color: #650300;
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 48px;
+}
+
+.guest-recomme-card{
+	margin-top: 30px;
+	margin-right: -12px;
+	margin-left: -12px;
+}
+
+.guest-recomme img{
+	width: 100%;
+}
+.borderline{
+    border: #00000029;
+	box-shadow: 0px 2px 6px;
+}
+
+.guest-recomme-item{
+	padding: 16px;
+	min-height: 205px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.guest-recomme-container {
+	max-width: 1320px;
+	margin: 0 auto;
+	padding-left: 12px;
+	padding-right: 12px;
+  }
+
+.guest-recomme-item{
+	width: 25%;
+	padding-right: 12px;
+	padding-left: 12px;
+	margin-bottom: 80px;
+}
+
+.guest-recomme-item .name-card{
+	padding: 16px;
+	min-height: 205px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.guest-recomme-item .name-card .number{
+	font-size: 16px;
+	color: #707070;
+	margin-bottom: 8px;
+}
+
+.number{
+
+	color: #707070;
+ }
+
+.guest-recomme-card{
+	margin-left: -12px;
+	margin-right: -12px;
+}
+
+@media (max-width: 576px) {
+	.guest-recomme-item {
+	  width: 100%
+	}
+	.guest-recomme-card{
+		flex-wrap: wrap;
+	}
+	.guest-recomme-container {
+	  max-width: 372px;
+	}
+  }
+
+.contentus-bgc{
+	background-color: #FBF2F2;
+}
+
+.contentus-container{
+	margin: 0 auto;
+	max-width: 636px;
+	padding-right: 14px;
+	padding-left: 14px;
+	padding-bottom: 48px;
+}
+
+.contentus h2{
+	text-align: center;
+}
+
+.contentus h2{
+	font-size: 48px;
+	color: #650300;
+	padding-bottom: 48px;
+	padding-top: 80px;
+}
+
+.content-word{
+	font-size: 20px;
+    padding-bottom: 24px;
+}
+
+.content-card{
+	padding-bottom: 22px;
+}
+
+.content-card input{
+	display: block;
+	width: 100%;
+	background: transparent;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 12px;
+}
+.content-card textarea{
+	height: 136px;
+	display: block;
+	width: 100%;
+	background: transparent;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 12px;
+}
+
+.sure-buttom a{
+	background-color: #AA0601;
+	color: #FFFFFF;
+	text-decoration: none;
+    display: block;
+	text-align: center;
+	padding-top: 16px;
+	padding-bottom: 16px;
+    margin-top: 48px;
+	max-width: 416px;
+	justify-content: center;
+}
+
+@media (max-width: 576px) {
+	.contentus {
+	  max-width: 100%
+	}
+  }
+}
