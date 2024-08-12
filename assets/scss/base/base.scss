@@ -1,0 +1,36 @@
+.container{
+	max-width: 1296px;
+	margin: 0 auto;
+}
+
+.d-flex{
+	display: flex;
+}
+.fww{
+   flex-wrap: wrap;
+}
+
+.bgc{
+	background-color: #AA0601;
+}
+
+.headlogo {
+	padding-top: 12px;
+	padding-bottom: 12px;
+  }
+
+.jcsa{
+	justify-content: space-around;
+}
+
+.jcfe{
+	justify-content: flex-end;
+}
+
+.jcsb{
+	justify-content: space-between;
+}
+
+.alic{
+	align-items: center;
+}
